@@ -401,6 +401,7 @@ hr.large{
 }
 .site-header .intro {
   color: #fff;
+  margin-top: 30px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
