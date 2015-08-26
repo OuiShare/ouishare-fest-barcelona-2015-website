@@ -125,6 +125,7 @@ hr.large{
 }
 
 hr.small{
+  border-width: 3px 0 0;
   margin-bottom: 20px;
   margin-top: 10px;
   width: 80px;
