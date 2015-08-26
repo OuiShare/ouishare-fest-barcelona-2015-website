@@ -124,6 +124,13 @@ hr.large{
    width: 240px;
 }
 
+hr.small{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 80px;
+}
+
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -281,7 +288,7 @@ hr.large{
 }
 
 .bg-image-1 {
-  background: url(http://www.barcelonactiva.cat/barcelonactiva/images/cat/auditori-BAIP_tcm83-90130.jpg) no-repeat center center/cover;
+  background: url(https://pbs.twimg.com/media/CDNCrU-WIAA2a55.jpg) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.5);
@@ -554,12 +561,56 @@ hr.large{
 }
 
 /* 
- * 6.7 Section: Schedule
+ * 6.7 Section: Matter
  */
 
-.colaboradores{
-
+.matter {
+  background-color: #f8f8f8;
 }
+
+.matter .matter-box {
+  display: block;
+  opacity: 0.5;
+  height: 150px;
+  width: 150px;
+  margin: 10px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.matter .matter-box:hover {
+  opacity: 1;
+}
+
+.matter .matter-box-1 {
+  background: url(../images/matter/capital_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-2 {
+  background: url(../images/matter/educacion_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-3 {
+  background: url(../images/matter/organizaciones_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-4 {
+  background: url(../images/matter/produccion_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-5 {
+  background: url(../images/matter/sanidad_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-6 {
+  background: url(../images/matter/sociedad_v2.png) no-repeat center center/contain;
+}
+.matter .matter-box-7 {
+  background: url(../images/matter/turismo_v2.png) no-repeat center center/contain;
+}
+
+.matter p {
+  color: #8f8f8f;
+}
+
+
+/* 
+ * Section: Partner
+ */
 
 .partner {
   background-color: #f8f8f8;
