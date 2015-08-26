@@ -543,6 +543,7 @@ hr.small{
   -o-filter: grayscale(100%);
 }
 
+
 /* 
  * 6.4 Section: Registration & Pricing
  */
@@ -557,22 +558,66 @@ hr.small{
 /* 
  * 6.6 Section: Schedule
  */
+
+.schedule h4{
+  background-color: #001E60;
+  color: #FFF;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
 .schedule-box {
   position: relative;
   background-color: #000;
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 15px 0;
   margin: 25px 0 0;
 }
-.schedule-box::before {
-  content: '';
+
+.schedule-box p{
+  color: #333;
+  margin: 0;
+}
+
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  background-color: #DB8187;
+  margin: 57.74px auto;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
   position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-  border: 1px solid #fff;
+  width: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 57.74px solid #DB8187;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 57.74px solid #DB8187;
+}
+
+.blue-box{
+  background-color: #A990CA;
+}
+
+.green-box{
+  background-color: #93C89F;
+}
+
+.red-box{
+  background-color: #DB8187;
 }
 
 /* 
@@ -620,6 +665,9 @@ hr.small{
 
 .matter p {
   color: #8f8f8f;
+}
+.matter h4 {
+  text-transform: uppercase;
 }
 
 
@@ -744,9 +792,10 @@ hr.small{
   }
 }
 @media (min-width: 992px) {
-  .schedule-box {
+  /*.schedule-box {
     margin: 0;
   }
+  */
 
   .grid-item-md-6 {
     width: 50%;
