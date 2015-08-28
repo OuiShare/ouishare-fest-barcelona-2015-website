@@ -815,6 +815,7 @@ hr.small{
   padding: 30px 0;
 }
 .site-footer .site-info {
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 10px;
 }
