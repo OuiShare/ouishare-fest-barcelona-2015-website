@@ -30,6 +30,14 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+ 
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+ 
+
 </head>
 <body data-spy="scroll" data-target="#site-nav">
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -235,34 +243,20 @@
             <div class="row text-center">
                 <div class="col-sm-4">                
                     <h4>19 Noviembre</h4>
-                    <!--
-                    <br />                  
-                    <div class="row hexagon">
-                        Conferencias<br />
-                        Paneles<br />
-                        Talleres<br />
-                        Entrevistas
-                    </div>
-                    <br />
-                    <div class="row hexagon">
-                        <p><br/>Eventos satélites</p>
-                    </div>
-                    <br />
-                    -->
-                    <div class="schedule-box red-box">
-                        <p>Conferencias<br />
-                        Paneles<br />
-                        Talleres<br />
-                        Entrevistas </p>
-                    </div>
-                                        
-                    <div class="schedule-box green-box">
-                        <p> <br />
-                            Eventos satélites
-                            <br />
-                            <br />
-                            <br />
+                    <div class="hexagon red-box">
+                        <p><br /><br />Conferencias<br />
+                            Paneles<br />
+                            Talleres<br />
+                            Entrevistas
                         </p>
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                    </div>                    
+                    <div class="hexagon green-box">
+                        <p><br /><br /><br /><br />Eventos satélites<br />
+                        </p>
+                        <span class="top"></span>
+                        <span class="bottom"></span>
                     </div>
                 </div>
 
@@ -270,41 +264,34 @@
                     
                     <h4>20 Noviembre</h4>                    
                     
-                    <div class="schedule-box red-box">
-                        <p>Conferencias<br />
-                        Paneles<br />
-                        Talleres<br />
-                        Entrevistas </p>
-                    </div>
-                                        
-                    <div class="schedule-box green-box">
-                        <p> <br />
-                            Eventos satélites
-                            <br />
-                            <br />
-                            <br />
-                        </p>
+                    <div class="hexagon red-box">
+                        <p><br /><br />Conferencias<br />
+                            Paneles<br />
+                            Talleres<br />
+                            Entrevistas </p>
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                    </div>                    
+                    <div class="hexagon green-box">
+                        <p><br /><br /><br /><br />Eventos satélites<br />
+                        <span class="top"></span>
+                        <span class="bottom"></span>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <a class="schedule-box"></a>
-                    <h4>21 Noviembre</h4>                    
-                    <div class="schedule-box blue-box">
-                        <p> <br />
-                            Feria abierta
-                            <br />
-                            <br />
-                            <br />
+                    <h4>21 Noviembre</h4>                                        
+                    <div class="hexagon blue-box">
+                        <p><br /><br /><br /><br />Feria abierta<br />
                         </p>
-                    </div>
-                    
-                    <div class="schedule-box green-box">
-                        <p> <br />
-                            Fiesta de clausura
-                            <br />
-                            <br />
-                            <br />
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                    </div>                    
+                    <div class="hexagon green-box">
+                        <p><br /><br /><br /><br />Fiesta de clausura<br />
                         </p>
+                        <span class="top"></span>
+                        <span class="bottom"></span>
                     </div>
                 </div>                
             </div>            
@@ -362,7 +349,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div id="speakers-1" class="owl-carousel">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/antonin_leonard.jpeg);">
                             <span class="top"></span>
@@ -370,7 +357,6 @@
                         </div>
 
                         <h4>Antonin Leonard</h4>
-
                         <p>Cofundador OuiShare</p>
 
                         <ul class="social-block">
@@ -379,9 +365,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
-
-                <div class="col-md-3">
+                            
                     <div class="speaker">
 
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/javier_creus.jpg);">
@@ -390,7 +374,6 @@
                         </div>
 
                         <h4>Javier Creus</h4>
-
                         <p>Ideas For Change // Pentagrowth</p>
 
                         <ul class="social-block">
@@ -400,9 +383,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
 
-                <div class="col-md-3">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/genis_roca.jpg);">
                             <span class="top"></span>
@@ -410,7 +391,6 @@
                         </div>
 
                         <h4>Genis Roca</h4>
-
                         <p>Transformación Digital en Roca&Salvatella</p>
 
                         <ul class="social-block">
@@ -419,33 +399,28 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
-
-				<div class="col-md-3">
 
                     <div class="speaker">
-
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/maite_moreno.jpg);">
                             <span class="top"></span>
                             <span class="bottom"></span>
                         </div>
 
                         <h4>Maite Moreno</h4>
-
                         <p>Monday Happy Monday</p>
 
                         <ul class="social-block">
                             <li><a href="https://twitter.com/MonHappyMon"><i class="ion-social-twitter"></i></a></li>
                             <li><a href="https://es.linkedin.com/in/maitemoreno1"><i class="ion-social-linkedin-outline"></i></a></li>
                         </ul>
-
                     </div>
+                
                 </div>
 
             </div><!-- /.row -->
 
             <div class="row">
-                <div class="col-md-3">
+                <div id="speakers-2" class="owl-carousel">
 
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(https://pbs.twimg.com/profile_images/459267361229381632/ahn-TUM1_400x400.jpeg);">
@@ -461,10 +436,7 @@
                             <li><a href="https://es.linkedin.com/in/titonet"><i class="ion-social-linkedin-outline"></i></a></li>                            
                         </ul>
                     </div>
-                </div>
-
-                <div class="col-md-3">
-
+                            
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/valenti_acconcia.jpeg);">
                             <span class="top"></span>
@@ -472,7 +444,6 @@
                         </div>
 
                         <h4>Valentí Acconcia</h4>
-
                         <p>Consultor experto en Crowdfunding // Vanacco</p>
 
                         <ul class="social-block">
@@ -480,10 +451,7 @@
                             <li><a href="https://es.linkedin.com/in/vanacco"><i class="ion-social-linkedin-outline"></i></a></li>                            
                         </ul>
                     </div>
-                </div>
-
-
-                <div class="col-md-3">
+                
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/icon_person.jpg);">
                             <span class="top"></span>
@@ -491,7 +459,6 @@
                         </div>
 
                         <h4>Antonio Maudes Gutiérrez</h4>
-
                         <p>Director de Promoción de la Competencia en la CNMC.</p>
 
                         <ul class="social-block">
@@ -499,9 +466,7 @@
                             <li><a href="https://es.linkedin.com/in/antoniomaudes"><i class="ion-social-linkedin-outline"></i></a></li>                            
                         </ul>
                     </div>
-                </div>
 
-                <div class="col-md-3">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/amaya_apesteguia.jpg);">
                             <span class="top"></span>
@@ -509,7 +474,6 @@
                         </div>
 
                         <h4>Amaya Apesteguía</h4>
-
                         <p>Especialista en consumo responsable en la Organización de Consumidores y Usuarios (OCU)</p>
 
                         <ul class="social-block">
@@ -517,9 +481,10 @@
                             <li><a href="https://es.linkedin.com/in/amayaapesteguia"><i class="ion-social-linkedin-outline"></i></a></li>                            
                         </ul>
                     </div>
+                
                 </div>
 
-             </div>
+            </div><!-- /.row -->
 
         </div>
     </section>
@@ -536,7 +501,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div id="team-members-1" class="owl-carousel">                
                     <div class="speaker">
 
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/albert_canigueral.jpg);">
@@ -545,7 +510,6 @@
                         </div>
 
                         <h4>Albert Cañigueral</h4>
-
                         <p>Co-Chair</p>
 
                         <ul class="social-block">
@@ -555,9 +519,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
-
-                <div class="col-md-3">
+                
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/pako_rodriguez.jpg);">
                             <span class="top"></span>
@@ -565,7 +527,6 @@
                         </div>
 
                         <h4>Francisco Rodriguez</h4>
-
                         <p>Comunicación // Awards</p>
 
                         <ul class="social-block">
@@ -574,9 +535,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
 
-                <div class="col-md-3">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/sara_rodriguez.jpg);">
                             <span class="top"></span>
@@ -584,7 +543,6 @@
                         </div>
 
                         <h4>Sara Rodriguez</h4>
-
                         <p>Administración</p>
 
                         <ul class="social-block">
@@ -594,10 +552,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->
-
-                <div class="col-md-3">
-
+                
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/gabi_masfarre.jpg);">
                             <span class="top"></span>
@@ -605,7 +560,6 @@
                         </div>
 
                         <h4>Gabriela Masfarré</h4>
-
                         <p>Colaboradores</p>
 
                         <ul class="social-block">
@@ -614,12 +568,12 @@
                         </ul>
 
                     </div>
-                </div>
+                </div> <!-- team-members -->
 
             </div><!-- /.row -->    
 
             <div class="row">
-                <div class="col-md-3">
+                <div id="team-members-2" class="owl-carousel">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/luis_tamayo.jpg);">
                             <span class="top"></span>
@@ -638,9 +592,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->        
 
-                <div class="col-md-3">
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/ana_manzanedo.jpg);">
                             <span class="top"></span>
@@ -657,9 +609,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->      
-                        
-                <div class="col-md-3">
+                
                     <div class="speaker">
                         <div class="hexagon grayscale" style="background-image: url(assets/images/team/lucia_hernandez.jpg);">
                             <span class="top"></span>
@@ -676,13 +626,12 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->      
 
-                <div class="col-md-3">
                     <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block grayscale" src="assets/images/speakers/icon_person.jpg">
-                        </figure>
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/icon_person.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>
 
                         <h4>Vanessa Sans</h4>
 
@@ -694,7 +643,7 @@
                         </ul>
 
                     </div><!-- /.speaker -->
-                </div><!-- /.col-md-3 -->        
+                </div><!-- /.team-members -->        
 
 <!--
                 <div class="col-md-3">
@@ -717,6 +666,76 @@
             -->
 
             </div><!-- /.row -->    
+        
+            <div class="row">
+                <div id="team-members-3" class="owl-carousel">
+
+                    <div class="speaker">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/icon_person.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>
+
+                        <h4>Cristóbal García</h4>
+                        <p></p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>                            
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></l
+                        </ul>
+                    </div><!-- /.speaker -->
+
+                    <div class="speaker">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/icon_person.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>
+
+                        <h4>Mercè Rua</h4>
+                        <p>Experiencia</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>                            
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></l
+                        </ul>
+                    </div><!-- /.speaker -->
+
+                    <div class="speaker">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/team/alvaro_saco.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>
+
+                        <h4>Álvaro Saco</h4>
+                        <p>Tech</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>                            
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></l
+                        </ul>
+                    </div><!-- /.speaker -->
+                  
+
+                    <div class="speaker">
+                          <div class="hexagon grayscale" style="background-image: url(assets/images/team/alvaro_saco.jpg);">
+                              <span class="top"></span>
+                              <span class="bottom"></span>
+                          </div>
+
+                          <h4>Álvaro Saco</h4>
+
+                          <p>Tech</p>
+
+                          <ul class="social-block">
+                              <li><a href=""><i class="ion-social-twitter"></i></a></li>                            
+                              <li><a href=""><i class="ion-social-linkedin-outline"></i></a></l
+                          </ul>
+
+                        </div><!-- /.speaker -->
+                  
+                </div>
+            </div><!-- /.row -->    
+
 
         </div>
     </section>
@@ -853,7 +872,16 @@
 					<hr class="red" />
                 </div>
             </div>
+            
             <div class="row">
+                <div id="logos-colaboradores" class="owl-carousel">
+                    <div><a class="partner-box partner-box-5"></a></div>
+                    <div><a class="partner-box partner-box-2"></a></div>
+                    <div><a class="partner-box partner-box-3"></a></div>
+                    <div><a class="partner-box partner-box-1"></a></div>
+                </div>
+            <!--
+
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-5"></a>
                 </div>
@@ -866,7 +894,8 @@
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-1"></a>
                 </div>
-            </div>
+            -->
+            </div>            
 
     </section>
 
@@ -1017,8 +1046,8 @@
 					<p class="site-info">Todos los textos e imágenes de esta web están compartidos bajo licencia <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a>
                         
                     <ul class="social-block">
-                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                        <li><a href=""><i class="ion-social-facebook"></i></a></li>                        
+                        <li><a href="https://twitter.com/OuiShare_es"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/OuiShareEspana"><i class="ion-social-facebook"></i></a></li>                        
                     </ul>
 					
                 </div>
@@ -1031,5 +1060,93 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- Include js plugin -->
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            
+            
+            $("#speakers-1").owlCarousel({
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true
+            });
+
+            $("#speakers-2").owlCarousel({
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true
+            });
+
+            $("#team-members-1").owlCarousel({
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true
+            });
+
+            $("#team-members-2").owlCarousel({
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true
+            });            
+
+            $("#team-members-3").owlCarousel({
+                          
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true,
+             
+                // Navigation
+                //navigation : true,
+                //navigationText : ["<",">"],                
+                scrollPerPage : false,
+             
+                //Pagination
+                //pagination : true,
+                //paginationNumbers: false,
+             
+                // Responsive 
+                responsive: true,
+                responsiveRefreshRate : 200,
+                responsiveBaseWidth: window,
+             
+                // CSS Styles
+                baseClass : "owl-carousel",
+                theme : "owl-theme",
+             
+                
+                //Mouse Events
+                dragBeforeAnimFinish : true,
+                mouseDrag : true,
+                touchDrag : true
+             
+             
+            });
+
+            $("#logos-colaboradores").owlCarousel({
+                items : 4,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : true
+            });
+        });
+
+                    
+
+
+    </script>
+
 </body>
 </html>
