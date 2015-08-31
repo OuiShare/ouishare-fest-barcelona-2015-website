@@ -580,33 +580,35 @@ hr.small{
   margin: 0;
 }
 
+.hexagon span {
+    position: absolute;
+    display: block;
+    float:left;
+  border-left: 100px solid #fff;
+  border-right: 100px solid #fff;
+}
+
+.hexagon .top {
+top: 0;
+border-top: 0px solid transparent;
+ border-bottom: 60px solid transparent;
+}
+
+.hexagon .bottom{
+bottom: 0px;
+border-bottom: 0px solid transparent;
+border-top: 60px solid transparent;
+}
+
 .hexagon {
-  position: relative;
-  width: 200px; 
-  height: 115.47px;
-  background-color: #DB8187;
-  margin: 57.74px auto;
+    background-position: center center;
+    background-size: 225px; 
+    width: 200px;
+    height: 225px;
+    position: relative;
+    display: inline-block;
 }
 
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-}
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 57.74px solid #DB8187;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 57.74px solid #DB8187;
-}
 
 .blue-box{
   background-color: #A990CA;
