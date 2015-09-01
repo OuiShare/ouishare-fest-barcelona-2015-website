@@ -163,6 +163,13 @@ hr.small{
           transform: scale(0.9);
 }
 
+.btn-sm{
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 5px 10px;
+}
+
 .form-control {
   border-radius: 0;
   box-shadow: none;
@@ -331,7 +338,7 @@ hr.small{
   margin: 0;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #fff;
+  color: #001e60;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 400;
@@ -356,9 +363,14 @@ hr.small{
 
 .navbar-solid {
   background-color: #001e60 !important;
+  color:#FFF;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
+}
+
+.navbar-solid .navbar-nav li a{
+  color: #FFF;
 }
 
 .site-branding {
@@ -367,7 +379,7 @@ hr.small{
   margin-left: 10px;
 }
 .site-branding .logo {
-  color: #fff;
+  color: #001e60;
   font-size: 14px;
   font-weight: 700;
   margin-right: 5px;
@@ -395,8 +407,7 @@ hr.small{
   min-height: 100vh;
   position: relative;
   text-align: center;
-//  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
-  background: url(http://osfbcn2015staging.ouishare.webfactional.com/assets/slider/new_inspire.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/ouisharefestbcn_bg.jpg) no-repeat center center/cover;
 }
 .site-header::before {
   content: "";
@@ -405,7 +416,7 @@ hr.small{
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 .site-header .intro {
   color: #fff;
@@ -450,6 +461,7 @@ hr.small{
 
 
 .site-header .intro p {
+  color: #001e60;
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 300;
