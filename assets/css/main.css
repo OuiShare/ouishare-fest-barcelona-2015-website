@@ -250,6 +250,12 @@ hr.small{
 /* 
  * 3.4 Helper Class: button
  */
+
+.btn-lg{
+  font-size: 18px;
+  padding: 12px 28px;
+}
+
 .btn-white {
   color: #000;
   background-color: #fff;
@@ -695,8 +701,8 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -705,9 +711,15 @@ border-top: 60px solid transparent;
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/freedelibre.png) no-repeat center center/contain;
+  background: url(http://iambarcelonian.barcelonactiva.cat/wp-content/uploads/2014/09/logo-barcelona-activa-300x96.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
+  background: url(../images/partner/socialcar.png) no-repeat center center/contain;
+}
+.partner .partner-box-5 {
+  background: url(../images/partner/freedelibre.png) no-repeat center center/contain;
+}
+.partner .partner-box-8 {
   background: url(../images/partner/consumocolaborativo_logo3.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
@@ -715,12 +727,6 @@ border-top: 60px solid transparent;
 }
 .partner .partner-box-4 {
   background: url(../images/partner/partner-4.png) no-repeat center center/contain;
-}
-.partner .partner-box-5 {
-  background: url(http://iambarcelonian.barcelonactiva.cat/wp-content/uploads/2014/09/logo-barcelona-activa-300x96.png) no-repeat center center/contain;
-}
-.partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
   background: url(../images/partner/partner-7.png) no-repeat center center/contain;
