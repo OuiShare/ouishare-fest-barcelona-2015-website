@@ -343,6 +343,11 @@ hr.small{
 .navbar-custom .navbar-nav li {
   margin: 0;
 }
+
+.in > .navbar-nav > li > a{
+    color:#FFF !important;
+  }
+
 .navbar-custom .navbar-nav > li > a {
   color: #001e60;
   text-transform: uppercase;
@@ -350,6 +355,8 @@ hr.small{
   font-weight: 400;
   border-bottom: 1px solid transparent;
 }
+
+
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
@@ -478,6 +485,7 @@ hr.small{
     background-color: transparent;
     padding-top: 30px;
   }
+
 
   .site-branding {
     margin-top: 6px;
