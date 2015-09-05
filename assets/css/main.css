@@ -858,3 +858,8 @@ border-top: 60px solid transparent;
 }
 
 
+.cc_container .cc_message, .cc_btn{
+  font-family: Naiv, sans-serif;
+  font-size: 0.9em !important;
+  line-height: 1.5em;
+}
