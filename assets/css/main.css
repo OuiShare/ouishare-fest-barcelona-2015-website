@@ -724,13 +724,17 @@ border-top: 60px solid transparent;
 .partner .partner-box-2 {
   background: url(../images/partner/socialcar.png) no-repeat center center/contain;
 }
+.partner .partner-box-3 {
+  background: url(../images/partner/airbnb_logo.png) no-repeat center center/contain;
+}
+
 .partner .partner-box-5 {
   background: url(../images/partner/freedelibre.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
   background: url(../images/partner/consumocolaborativo_logo3.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
+.partner .partner-box-9 {
   background: url(http://ideasforchange.com/wp-content/uploads/2015/04/ideas_for_change_logo_600.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
