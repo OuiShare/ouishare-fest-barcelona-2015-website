@@ -709,8 +709,8 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  max-width: 200px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -718,6 +718,24 @@ border-top: 60px solid transparent;
 .partner .partner-box:hover {
   opacity: 1;
 }
+
+
+.partner-xxl{
+  max-width: 400px;
+}
+
+.partner-xl{
+  max-width: 300px !important;
+}
+
+.partner-l{
+  max-width: 240px; 
+}
+
+.partner-m{
+  max-width: 160px; 
+} 
+
 .partner .partner-box-1 {
   background: url(http://iambarcelonian.barcelonactiva.cat/wp-content/uploads/2014/09/logo-barcelona-activa-300x96.png) no-repeat center center/contain;
 }
