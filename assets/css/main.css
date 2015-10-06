@@ -305,7 +305,7 @@ hr.small{
   background: url(https://pbs.twimg.com/media/CDNCrU-WIAA2a55.jpg) no-repeat center center/cover;
 }
 .bg-image-1::before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 30, 96, 0.5);
 }
 
 .bg-image-2 {
@@ -343,6 +343,11 @@ hr.small{
 .navbar-custom .navbar-nav li {
   margin: 0;
 }
+
+.in > .navbar-nav > li > a{
+    color:#FFF !important;
+  }
+
 .navbar-custom .navbar-nav > li > a {
   color: #001e60;
   text-transform: uppercase;
@@ -350,6 +355,8 @@ hr.small{
   font-weight: 400;
   border-bottom: 1px solid transparent;
 }
+
+
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
@@ -478,6 +485,7 @@ hr.small{
     background-color: transparent;
     padding-top: 30px;
   }
+
 
   .site-branding {
     margin-top: 6px;
@@ -701,8 +709,8 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  max-width: 200px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -710,19 +718,41 @@ border-top: 60px solid transparent;
 .partner .partner-box:hover {
   opacity: 1;
 }
+
+
+.partner-xxl{
+  max-width: 400px;
+}
+
+.partner-xl{
+  max-width: 300px !important;
+}
+
+.partner-l{
+  max-width: 240px; 
+}
+
+.partner-m{
+  max-width: 160px; 
+} 
+
 .partner .partner-box-1 {
   background: url(http://iambarcelonian.barcelonactiva.cat/wp-content/uploads/2014/09/logo-barcelona-activa-300x96.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
   background: url(../images/partner/socialcar.png) no-repeat center center/contain;
 }
+.partner .partner-box-3 {
+  background: url(../images/partner/airbnb_logo.png) no-repeat center center/contain;
+}
+
 .partner .partner-box-5 {
   background: url(../images/partner/freedelibre.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
   background: url(../images/partner/consumocolaborativo_logo3.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
+.partner .partner-box-9 {
   background: url(http://ideasforchange.com/wp-content/uploads/2015/04/ideas_for_change_logo_600.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
@@ -850,3 +880,8 @@ border-top: 60px solid transparent;
 }
 
 
+.cc_container .cc_message, .cc_btn{
+  font-family: Naiv, sans-serif;
+  font-size: 0.9em !important;
+  line-height: 1.5em;
+}
