@@ -32,6 +32,14 @@
     <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
     <!-- Default Theme -->
     <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+        <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="assets/css/styleNoJS.css" />
+        </noscript>
+
     
     <!-- Google Analytics -->
     <script>
@@ -65,11 +73,9 @@
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header">
-
                 <!-- logo -->
                 <div class="site-branding">
-                    <a class="logo" href="index.html">
-                        
+                    <a class="logo" href="index.html">                    
                         <!-- logo image  -->
                         <!--<img src="assets/images/logo.png" alt="Logo">-->
 					   <img src="assets/images/osf15bcn-header-white.png" alt="Logo OuiShare" />
@@ -93,13 +99,8 @@
                     <li class="active"><a data-scroll href="#acerca">¿Qué es?</a></li>
                     <li><a data-scroll href="#programa">Programa</a></li>
                     <li><a data-scroll href="#speakers">Ponentes</a></li> 
-                    <!-- <li><a data-scroll href="#schedule">Programa</a></li> -->
-                    <!-- <li><a data-scroll href="#partner">Partner</a></li> -->
-                    
                     <li><a data-scroll href="#partner">Colabora</a></li>
                     <li><a data-scroll href="#ubicacion">Lugar</a></li>
-                    <!-- <li><a data-scroll href="#faq">FAQ</a></li> -->
-                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
                     <li><a href="http://www.eventbrite.es/e/entradas-ouishare-fest-bcn-15-osfestbcn-17836349000" target="_blank" style="color: red;">Tickets</a></li>
 
                     <li><a href="https://twitter.com/OuiShare_es"><i class="ion-social-twitter"></i></a></li>
@@ -110,6 +111,7 @@
         </div><!-- /.container -->
     </nav>
 
+    <!--
     <header id="site-header" class="site-header valign-center"> 
         <div class="intro">
             
@@ -134,6 +136,84 @@
 		
         </div>
     </header>
+    -->
+
+
+    <div id="slider" class="sl-slider-wrapper">
+
+                <div class="sl-slider">
+                
+                    <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                        <div class="sl-slide-inner bg-img-1">
+                            <div class="intro">
+                                        <div class="logo">
+                                            <img src="assets/images/logo_ouishare_fest_bcn_2015.png" alt="logo ouishare fest barcelona 2015" />
+                                        </div>
+                                        
+                                        <h1 class="hidden"><span>OuiShare</span> Fest Barcelona 2015</h1>
+                                        <h2>La transformación colaborativa</h2>
+                                        
+                                        <p><span class="text-lowercase">19, 20 y 21</span> Noviembre · Parc Tecnològic Barcelona Activa</p>
+
+                                        <br />
+
+                                        <p>
+                                        <a class="btn btn-red btn-lg" target='_blank' href="http://www.eventbrite.es/e/entradas-ouishare-fest-bcn-15-osfestbcn-17836349000">Compra tu entrada</a>
+                                        </p>
+                                        
+                                        <p>
+                                        <a class="btn btn-info btn-sm" data-scroll href="#acerca">Ver màs información</a>
+                                        </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                        <div class="sl-slide-inner bg-img-2">
+                            <div class="intro">
+                                        <br>
+                                        <br>
+                                        <div class="logo">
+                                            <img src="http://bcn.ouisharefest.com/rethinkremix/assets/images/logo_rr_blanco.png" alt="logo rethink remix ouishare fest barcelona 2015" />
+                                        </div>
+                                        
+                                        <h1 class="hidden"><span>OuiShare</span> Fest Barcelona 2015</h1>
+                                        <!--<h2>Rethink Remix - Bussiness Experience</h2>-->
+                                        
+                                        <p style="color: white; "><span class="text-lowercase">18</span> Noviembre · Cibernarium Barcelona Activa</p>                                        
+
+                                        <br />
+
+                                        <p>
+                                        <a class="btn btn-red btn-lg" target='_blank' href="http://bcn.ouisharefest.com/rethinkremix/#tickets">Compra tu entrada</a>
+                                        </p>
+                                        
+                                        <p>
+                                        <a class="btn btn-info btn-sm" href="http://bcn.ouisharefest.com/rethinkremix/">Ver màs información</a>
+                                        </p>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    
+                    
+                                        
+                </div><!-- /sl-slider -->
+                
+                <nav id="nav-arrows" class="nav-arrows">
+                    <span class="nav-arrow-prev">Previous</span>
+                    <span class="nav-arrow-next">Next</span>
+                </nav>
+
+                <nav id="nav-dots" class="nav-dots">
+                    <span class="nav-dot-current"></span>
+                    <span></span>                    
+                </nav>
+
+    </div><!-- /slider-wrapper -->    
+
+
 
     <section id="acerca" class="section about">
         <div class="container">
@@ -1449,11 +1529,94 @@
                 stopOnHover : false
             });
         });
-
-                    
-
-
     </script>
+
+    <script type="text/javascript" src="assets/js/jquery.ba-cond.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.slitslider.js"></script>
+        <script type="text/javascript"> 
+            $(function() {
+            
+                var Page = (function() {
+
+                    var $navArrows = $( '#nav-arrows' ),
+                        $nav = $( '#nav-dots > span' ),
+                        slitslider = $( '#slider' ).slitslider( {
+                            onBeforeChange : function( slide, pos ) {
+
+                                $nav.removeClass( 'nav-dot-current' );
+                                $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+                            }
+                        } ),
+
+                        init = function() {
+
+                            initEvents();
+                            
+                        },
+                        initEvents = function() {
+
+                            // add navigation events
+                            $navArrows.children( ':last' ).on( 'click', function() {
+
+                                slitslider.next();
+                                return false;
+
+                            } );
+
+                            $navArrows.children( ':first' ).on( 'click', function() {
+                                
+                                slitslider.previous();
+                                return false;
+
+                            } );
+
+                            $nav.each( function( i ) {
+                            
+                                $( this ).on( 'click', function( event ) {
+                                    
+                                    var $dot = $( this );
+                                    
+                                    if( !slitslider.isActive() ) {
+
+                                        $nav.removeClass( 'nav-dot-current' );
+                                        $dot.addClass( 'nav-dot-current' );
+                                    
+                                    }
+                                    
+                                    slitslider.jump( i + 1 );
+                                    return false;
+                                
+                                } );
+                                
+                            } );
+
+                        };
+
+                        return { init : init };
+
+                })();
+
+                Page.init();
+
+                /**
+                 * Notes: 
+                 * 
+                 * example how to add items:
+                 */
+
+                /*
+                
+                var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+                
+                // call the plugin's add method
+                ss.add($items);
+
+                */
+            
+            });
+        </script>
+
 
 </body>
 </html>

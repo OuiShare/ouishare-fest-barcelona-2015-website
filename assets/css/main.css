@@ -26,7 +26,7 @@
 
 
 html {
-  font-family: 'Roboto', sans-serif;
+  //font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -431,7 +431,7 @@ hr.small{
   left: 0;
   background-color: rgba(0, 0, 0, 0);
 }
-.site-header .intro {
+.intro {
   color: #fff;
   margin-top: 30px;
   position: relative;
@@ -442,17 +442,17 @@ hr.small{
   padding: 0 15px;
 }
 
-.site-header .intro .logo{
+ .intro .logo{
 	max-width: 340px;
 	margin: 0 auto;
 }
 
-.site-header .intro .logo img{
+ .intro .logo img{
 	width: 100%;
 	height: auto;
 }
 
-.site-header .intro h2 {
+ .intro h2 {
     background: #001e60 none repeat scroll 0 0;
     font-family: "Stencil", sans-serif;
     font-size: 32px;
@@ -462,18 +462,17 @@ hr.small{
     padding: 8px 4px 4px;
 }
 
-.site-header .intro h1 {
+ .intro h1 {
   margin-top: 0px;
   font-size: 28px;
 }
 
-.site-header .intro h1 span{
+ .intro h1 span{
 	font-family: "Stencil", sans-serif;
 	font-size: 30px;
 }
 
-
-.site-header .intro p {
+ .intro p {
   color: #001e60;
   font-size: 20px;
   margin-bottom: 10px;
