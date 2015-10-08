@@ -425,7 +425,7 @@
                     </div><!-- /.speaker -->
 
                     <div class="speaker">
-                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/antonin-leonard.jpeg);">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/antonin-leonard.jpg);">
                             <span class="top"></span>
                             <span class="bottom"></span>
                         </div>
@@ -887,6 +887,39 @@
                             <li><a href="http://javierdelacueva.es/"><i class="ion-link"></i></a></li>
                         </ul>
                     </div> 
+                                                                                             
+                    <div class="speaker">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/susana-martin.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>                        
+
+                        <h4>Susana Martín Belmonte</h4>
+                        <p>Economista, investigadora y activista defensora de la reforma monetaria y las monedas ciudadanas</p>
+
+                        <ul class="social-block">
+                            <li><a href="http://twitter.com/Sumarbel/"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://es.linkedin.com/in/susanamb"><i class="ion-social-linkedin-outline"></i></a></li>                            
+                        </ul>
+                    </div> 
+
+                    <div class="speaker">
+                        <div class="hexagon grayscale" style="background-image: url(assets/images/speakers/ruben-surinach.jpg);">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>                        
+
+                        <h4>Ruben Suriñach Padilla</h4>
+                        <p>Economista responsable del Balance Social de la Red de Economía Solidaria catalana</p>
+
+                        <!--
+                        <ul class="social-block">
+                            <li><a href="http://twitter.com/jdelacueva/"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://es.linkedin.com/in/jdelacueva"><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href="http://javierdelacueva.es/"><i class="ion-link"></i></a></li>
+                        </ul>
+                        -->
+                    </div>                     
                    
                 </div>
             </div>
@@ -1156,22 +1189,7 @@
                     <hr class="red" />
                 </div>
             </div>
-<!--            
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-4"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-6"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-7"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-8"></a>
-                </div>
-            </div>
--->
+
             <div class="row">
                 <div class="col-md-12 text-center">
                     <!--<h3 class="text-uppercase mt0 font-400">Patrocina el evento</h3>-->
@@ -1211,26 +1229,28 @@
             <div class="row">
                 <div id="partners-l" class="owl-carousel">                    
                     <div><a href="http://www.socialcar.com" title="social car" target="_blank" class="partner-box partner-l partner-box-2"></a></div>
-                    <div><a href="http://airbnb.com" title="airbnb" target="_blank" class="partner-box partner-l partner-box-3"></a></div>                    
-                    
-                </div>
-            <!--
-
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-5"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-2"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-3"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-1"></a>
-                </div>
-            -->
+                    <div><a href="http://airbnb.com" title="airbnb" target="_blank" class="partner-box partner-l partner-box-3"></a></div>                                        
+                </div>            
             </div>            
 
+            <br />
+            <br />
+
+    <!--
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Media partners</h3>
+                    <hr class="red" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="media-partners" class="owl-carousel">                    
+                    <div><a href="http://elmundo.com" title="El Mundo" target="_blank" class="partner-box partner-l media-partner-1"></a></div>                                        
+                </div>            
+            </div>            
+    -->
+        </div>
     </section>
 
 
@@ -1447,6 +1467,11 @@
                 //Autoplay
                 autoPlay : true,
                 stopOnHover : false
+            });
+
+            $("#media-partners").owlCarousel({
+                items : 1,
+                             
             });
         });
 

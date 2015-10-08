@@ -765,6 +765,10 @@ border-top: 60px solid transparent;
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
+.media-partner-1{
+  background: url(../images/partner/elmundo.svg) no-repeat center center/contain; 
+}
+
 /* 
  * 6.8 Section: FAQ
  */
