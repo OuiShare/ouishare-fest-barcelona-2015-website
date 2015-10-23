@@ -100,8 +100,12 @@ ul li {
   color: #000;
 }
 
+.red{
+  color: #e03e51;
+}
+
 hr.red{
-	border-color: #e03e52 -moz-use-text-color -moz-use-text-color;
+	border-color: #e03e51 -moz-use-text-color -moz-use-text-color;
     border-image: none;
     border-style: solid none none;
     border-width: 4px 0 0;
@@ -269,7 +273,7 @@ hr.small{
 
 .btn-red:hover, .btn-red:focus  {
     background-color: #F7CFD3;
-    color: #FFF;
+    color: #545454;
 }
 
 .btn-white:hover, .btn-white:focus {
@@ -284,6 +288,11 @@ hr.small{
 .btn-black:hover, .btn-black:focus {
   color: #fff;
   background-color: #000;
+}
+
+.btn-primary{
+  background: #001E60;
+  color: #FFF;
 }
 
 /* 
@@ -433,7 +442,7 @@ hr.small{
 }
 .site-header .intro {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 60px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -709,7 +718,7 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 100px;
+  height: 70px;
   max-width: 200px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
@@ -765,8 +774,45 @@ border-top: 60px solid transparent;
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
+.partner .partner-intercambio-casas{
+ background: url(../images/partner/logo-intercambio-casas.png) no-repeat center center/contain; 
+}
+
+.partner .partner-glowbl{
+  background: url(../images/partner/logo-glowbl.png) no-repeat center center/contain; 
+}
+
 .media-partner-1{
-  background: url(../images/partner/elmundo.svg) no-repeat center center/contain; 
+  background: url(../images/partner/logo-elmundo.png) no-repeat center center/contain; 
+}
+
+/*
+ * MAPA
+ */
+
+.location{
+  background: url(../images/backgrounds/parc-tecnologic-map-v4.jpg);
+  //background: url(../images/backgrounds/parc-tecnologic-web.jpg);
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #363738 !important;
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.location{
+  color: #FFF;
+}
+
+.location h2, .location h3{
+  color: #FFF;
+} 
+
+.location small{
+  color: #AAA;
 }
 
 /* 
@@ -862,6 +908,11 @@ border-top: 60px solid transparent;
 /* 
  * 7.0 Site-footer
  */
+
+ footer .logo{
+  max-width: 150px;
+ }
+
 .site-footer {
   background-color: #000;
   color: #fff;
@@ -882,6 +933,8 @@ border-top: 60px solid transparent;
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+
 
 
 .cc_container .cc_message, .cc_btn{
