@@ -719,7 +719,7 @@ border-top: 60px solid transparent;
   display: block;
   opacity: 0.5;
   height: 70px;
-  max-width: 200px;
+  max-width: 320px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -738,11 +738,11 @@ border-top: 60px solid transparent;
 }
 
 .partner-l{
-  max-width: 240px; 
+  max-width: 240px !important; 
 }
 
 .partner-m{
-  max-width: 160px; 
+  max-width: 160px !important; 
 } 
 
 .partner .partner-box-1 {
