@@ -733,7 +733,7 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 70px;
+  height: 80px;
   max-width: 320px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
@@ -745,11 +745,11 @@ border-top: 60px solid transparent;
 
 
 .partner-xxl{
-  max-width: 400px;
+  max-width: 400px !important;
 }
 
 .partner-xl{
-  max-width: 300px !important;
+  max-width: 320px !important;
 }
 
 .partner-l{
