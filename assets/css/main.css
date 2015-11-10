@@ -489,6 +489,21 @@ hr.small{
   font-weight: 300;
 }
 
+.site-header .intro .social{
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .intro .social li{
+  display: inline;
+  margin-right: 12px;  
+}
+
+.site-header .intro .social li a{  
+  font-size: 28px;
+}
+
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -745,6 +760,10 @@ border-top: 60px solid transparent;
   max-width: 160px !important; 
 } 
 
+.partner-s{
+  max-width: 100px !important; 
+} 
+
 .partner .partner-box-1 {
   background: url(http://iambarcelonian.barcelonactiva.cat/wp-content/uploads/2014/09/logo-barcelona-activa-300x96.png) no-repeat center center/contain;
 }
@@ -814,6 +833,13 @@ border-top: 60px solid transparent;
 .location small{
   color: #AAA;
 }
+
+
+.satellite {
+  background-color: #f8f8f8;
+}
+
+
 
 /* 
  * 6.8 Section: FAQ

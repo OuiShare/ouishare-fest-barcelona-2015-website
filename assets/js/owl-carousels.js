@@ -102,6 +102,38 @@
                 stopOnHover : false
             });
 
+            $("#speakers-13").owlCarousel({
+                items : 5,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : false
+            });
+
+            $("#speakers-14").owlCarousel({
+                items : 5,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : false
+            });
+
+            $("#speakers-15").owlCarousel({
+                items : 5,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : false
+            });
+
+            $("#speakers-16").owlCarousel({
+                items : 5,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : false
+            });
+
 
 
             $("#team-members-1").owlCarousel({
@@ -154,15 +186,19 @@
             });
 
             $("#partners-m").owlCarousel({
-                items : 5,
+                items : 6,
              
                 //Autoplay
                 autoPlay : true,
                 stopOnHover : false
             });
 
+            $("#partners-s").owlCarousel({
+                items : 3,
+            });
+
             $("#media-partners").owlCarousel({
-                items : 2,
+                items : 4,
                              
             });
         });
