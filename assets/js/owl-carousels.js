@@ -134,6 +134,14 @@
                 stopOnHover : false
             });
 
+            $("#speakers-17").owlCarousel({
+                items : 5,
+             
+                //Autoplay
+                autoPlay : true,
+                stopOnHover : false
+            });
+
 
 
             $("#team-members-1").owlCarousel({
