@@ -277,6 +277,10 @@ hr.small{
   background-color: #fff;
 }
 
+.btn-primary{
+  background: #001E60;
+}
+
 .btn-black {
   color: #fff;
   background-color: #000;
@@ -356,7 +360,6 @@ hr.small{
   border-bottom: 1px solid transparent;
 }
 
-
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
@@ -385,6 +388,24 @@ hr.small{
 .navbar-solid .navbar-nav li a{
   color: #FFF;
 }
+
+.dropdown-menu > li > a {
+  color: #001e60 !important;
+}
+
+.navbar-solid .navbar-nav li a {
+  color: #fff !important;
+}
+
+.navbar-solid .navbar-nav li a:hover {
+  background: transparent;
+  }
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
 
 .site-branding {
   float: left;
