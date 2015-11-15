@@ -202,7 +202,7 @@
             });
 
             $("#partners-m-2").owlCarousel({
-                items : 4,
+                items : 3,
              
                 //Autoplay
                 autoPlay : true,
