@@ -186,14 +186,6 @@
             });
 
             $("#partners-l").owlCarousel({
-                items : 3,
-             
-                //Autoplay
-                autoPlay : true,
-                stopOnHover : false
-            });
-
-            $("#partners-m").owlCarousel({
                 items : 4,
              
                 //Autoplay
@@ -201,7 +193,7 @@
                 stopOnHover : false
             });
 
-            $("#partners-m-2").owlCarousel({
+            $("#partners-m").owlCarousel({
                 items : 3,
              
                 //Autoplay
@@ -209,8 +201,9 @@
                 stopOnHover : false
             });
 
+            
             $("#partners-s").owlCarousel({
-                items : 3,
+                items : 6,
             });
 
             $("#media-partners").owlCarousel({
