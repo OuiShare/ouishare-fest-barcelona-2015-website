@@ -100,8 +100,12 @@ ul li {
   color: #000;
 }
 
+.red{
+  color: #e03e51;
+}
+
 hr.red{
-	border-color: #e03e52 -moz-use-text-color -moz-use-text-color;
+	border-color: #e03e51 -moz-use-text-color -moz-use-text-color;
     border-image: none;
     border-style: solid none none;
     border-width: 4px 0 0;
@@ -269,7 +273,7 @@ hr.small{
 
 .btn-red:hover, .btn-red:focus  {
     background-color: #F7CFD3;
-    color: #FFF;
+    color: #545454;
 }
 
 .btn-white:hover, .btn-white:focus {
@@ -285,6 +289,24 @@ hr.small{
   color: #fff;
   background-color: #000;
 }
+
+.btn-primary{
+  background: #001E60;
+  color: #FFF;
+}
+
+.btn-orange{
+  background: #f79925;
+  color: #FFF;
+}
+
+.btn-share{
+  background: #F58463;
+  color: #FFF;
+}
+
+
+
 
 /* 
  * 3.5 Helper Class: background
@@ -348,7 +370,7 @@ hr.small{
     color:#FFF !important;
   }
 
-.navbar-custom .navbar-nav > li > a {
+.navbar-custom .navbar-nav > li > a {  
   color: #001e60;
   text-transform: uppercase;
   font-size: 13px;
@@ -356,6 +378,9 @@ hr.small{
   border-bottom: 1px solid transparent;
 }
 
+.navbar-fixed-top .dropdown-menu > li > a{
+  color: #001e60 !important;
+}
 
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
@@ -363,6 +388,15 @@ hr.small{
 }
 .navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+  background: transparent !important;
+  color: #FFF;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+
 }
 
 .navbar-toggle {
@@ -381,10 +415,11 @@ hr.small{
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
-
 .navbar-solid .navbar-nav li a{
-  color: #FFF;
+  color: #FFF !important;
 }
+
+
 
 .site-branding {
   float: left;
@@ -429,11 +464,11 @@ hr.small{
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .site-header .intro {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 60px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -479,6 +514,21 @@ hr.small{
   margin-bottom: 10px;
   font-weight: 300;
 }
+
+.site-header .intro .social{
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .intro .social li{
+  display: inline;
+  margin-right: 12px;  
+}
+
+.site-header .intro .social li a{  
+  font-size: 28px;
+}
+
 
 @media (min-width: 768px) {
   .navbar-custom {
@@ -709,8 +759,8 @@ border-top: 60px solid transparent;
 .partner .partner-box {
   display: block;
   opacity: 0.5;
-  height: 100px;
-  max-width: 200px;
+  height: 80px;
+  max-width: 320px;
   margin: 10px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -721,19 +771,23 @@ border-top: 60px solid transparent;
 
 
 .partner-xxl{
-  max-width: 400px;
+  max-width: 400px !important;
 }
 
 .partner-xl{
-  max-width: 300px !important;
+  max-width: 320px !important;
 }
 
 .partner-l{
-  max-width: 240px; 
+  max-width: 240px !important; 
 }
 
 .partner-m{
-  max-width: 160px; 
+  max-width: 160px !important; 
+} 
+
+.partner-s{
+  max-width: 100px !important; 
 } 
 
 .partner .partner-box-1 {
@@ -764,6 +818,54 @@ border-top: 60px solid transparent;
 .partner .partner-box-8 {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
+
+.partner .partner-intercambio-casas{
+ background: url(../images/partner/logo-intercambio-casas.png) no-repeat center center/contain; 
+}
+
+.partner .partner-glowbl{
+  background: url(../images/partner/logo-glowbl.png) no-repeat center center/contain; 
+}
+
+.media-partner-1{
+  background: url(../images/partner/logo-elmundo.png) no-repeat center center/contain; 
+}
+
+/*
+ * MAPA
+ */
+
+.location{
+  background: url(../images/backgrounds/parc-tecnologic-map-v4.jpg);
+  //background: url(../images/backgrounds/parc-tecnologic-web.jpg);
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #363738 !important;
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.location{
+  color: #FFF;
+}
+
+.location h2, .location h3{
+  color: #FFF;
+} 
+
+.location small{
+  color: #AAA;
+}
+
+
+.eventos {
+  background-color: #f8f8f8;
+}
+
+
 
 /* 
  * 6.8 Section: FAQ
@@ -858,6 +960,11 @@ border-top: 60px solid transparent;
 /* 
  * 7.0 Site-footer
  */
+
+ footer .logo{
+  max-width: 150px;
+ }
+
 .site-footer {
   background-color: #000;
   color: #fff;
@@ -878,6 +985,8 @@ border-top: 60px solid transparent;
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+
 
 
 .cc_container .cc_message, .cc_btn{
